@@ -1,0 +1,192 @@
+.blackm-main {
+    width: 79%;
+    height: 100%;
+    min-height: 800px;
+    margin-left: 18%;
+}
+
+.black-left {
+    float: left;
+    width: 65%;
+}
+
+.black-left .black-pics li {
+    float: left;
+    width: 33.33%;
+    line-height: 0px;
+    position: relative;
+}
+
+.black-left .black-pics li:last-child {
+    position: relative;
+}
+
+.show_dic_img {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    height: 25%;
+    background-image: url(../images/probac.png);
+    z-index: 8;
+}
+
+.show_postion {
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+    width: 100%;
+}
+
+.show_postion p {
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 16px;
+    color: #1D1C1B;
+}
+
+.show_postion span {
+    display: block;
+    width: 90px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    color: #FEFDFC;
+    margin: 0px auto;
+    background-color: #262523;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.show_postion span:hover {
+    background-color: #000000;
+}
+
+.black-left ul li img {
+    width: 100%;
+}
+
+.black-right {
+    width: 35%;
+    height: 100%;
+    min-height: 800px;
+    float: left;
+    padding-top: 35px;
+}
+
+.black-right p {
+    margin-left: 15px;
+    font-size: 16px;
+    color: #1D1C1B;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.black-right span {
+    margin-left: 15px;
+    font-size: 12px;
+    color: #777777;
+    line-height: 1.5;
+}
+
+.black-right .black-right-imgs {
+    padding-left: 10px;
+}
+
+.black-right .black-right-imgs li:first-child {
+    margin: 7px;
+}
+
+.black-right .black-right-imgs li:first-child img {
+    width: 98%;
+    border: 1px solid #000;
+}
+
+.black-right .black-right-imgs li {
+    float: left;
+    margin: 8px;
+}
+
+.blackm-right-main {
+    margin-top: 26px;
+}
+
+.blackm-right-main span {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.5;
+}
+
+.buy-number {
+    position: relative;
+}
+
+.buy-number .b-m-inp {
+    height: 28px;
+    line-height: 28px;
+    width: 70px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #262523;
+    margin-left: 30px;
+}
+
+.buy-number span {
+    float: left;
+    width: 27px;
+    height: 28px;
+    border: 1px solid #262523;
+    cursor: pointer;
+    margin-left: -1px;
+}
+
+.buy-number span i {
+    display: block;
+    background-image: url(../images/ffe_03.png);
+    width: 13px;
+    height: 7px;
+    margin-left: 7px;
+    margin-top: 11px;
+}
+
+.buy-number .num-list {
+    float: left;
+    position: absolute;
+    z-index: 20;
+    top: 29px;
+    left: 30px;
+    width: 98px;
+    border: 1px solid #010101;
+    border-bottom: none;
+    background-color: #FFF;
+}
+
+.buy-number .num-list li {
+    display: none;
+    cursor: pointer;
+    line-height: 30px;
+    font-size: 14px;
+    text-indent: 32px;
+    transition: all 300ms ease;
+    border-bottom: 1px solid #010101
+}
+
+.buy-number .num-list li:hover {
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+p.add-cat {
+    height: 42px;
+    width: 300px;
+    font-size: 14px;
+    color: #FFF;
+    line-height: 42px;
+    text-align: center;
+    background-color: #262523;
+    cursor: pointer;
+    margin-top: 40px;
+    position: absolute;
+}

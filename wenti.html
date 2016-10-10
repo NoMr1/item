@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>客户服务</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/contact.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/wenti.js"></script>
+</head>
+<body>
+<div class="all-warp">
+    <!--leftContent start-->
+    <div class="all-left">
+        <div class="all-left-content">
+            <div class="left-logo">
+                <a href="javascript:;">
+                    <img src="images/logo.png" alt=""/>
+                </a>
+            </div>
+            <ul class="all-left-list">
+                <li><a href="black.html">Black系列</a></li>
+                <li><a href="air.html">Air系列</a></li>
+                <li><a href="bon.html">Bon系列</a></li>
+                <li><a href="joli.html">Joli系列</a></li>
+                <li><a href="moma.html">Moma系列</a></li>
+                <li><a href="world.html">我们的世界</a></li>
+            </ul>
+            <div class="all-left-bottom">
+                <ul class="all-left-bottom-content">
+                    <li>
+                        <a href="contact.html">
+                            <i class="left-ico1"></i>
+                            联系我们
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="wenti.html">
+                            <i class="left-ico2"></i>
+                            常见问题
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demand.html">
+                            <i class="left-ico3"></i>
+                            防伪查询
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="join.html">
+                            <i class="left-ico4"></i>
+                            加入我们
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="has-list">
+                            <i class="left-ico5"></i>
+                            法律声明
+                        </a>
+
+                        <div class="left-other" style="display:none">
+                            <a href="teaching.html">
+                                <p>--法律启示</p>
+                            </a>
+                            <a href="hide.html">
+                                <p>--隐私声明</p>
+                            </a>
+                            <a href="apply.html">
+                                <p>--使用条款</p>
+                            </a></div>
+                    </li>
+                </ul>
+                <div class="email-main">
+                    <p class="email-tip">
+                        <span class="email-tip-ico"></span>
+                        订阅邮件：
+                    </p>
+
+                    <p class="email-address">请输入合法的邮箱地址!</p>
+
+                    <div class="email-address-input">
+                        <input type="email" name="email" placeholder="请输入邮箱地址" id="emailAddress">
+                        <span id="emailDeliveryButton">
+                            <i></i>
+                        </span>
+                    </div>
+                </div>
+                <p class="left-bottom-last">浙ICP备14041663号-2<br/><br/>公安机关备案号33010802004721</p>
+            </div>
+        </div>
+    </div>
+    <div class="all-left-mark"></div>
+    <!--leftContent end-->
+    <!--rightContent start-->
+    <div class="all-right">
+        <div class="all-rightTOP">
+            <ul class="right-list">
+                <li>
+                    <span>
+                        <i class="r-ico1"></i>
+                        <a href="javascript:;" id="user-enter"> 登录/注册</a>
+                    </span>
+                </li>
+                .
+                <li>
+                    <span class="right-car">
+                        <i class="r-ico2"></i>
+                        <a href="javascript:;">我的购物袋</a>
+
+                         <div class="show-commodity">
+                             您的购物袋中暂无商品。
+                         </div>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="r-ico3"></i>
+                        <a href="javascript:;">客户服务</a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="r-ico4"></i>
+                        <a href="javascript:;">在线客服</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="all-rightBOTTOM">
+            <ul class="right-bottom">
+                <li class="wx-icon">
+                    <img src="images/code_wx.png" alt="" id="code-wx"/>
+                </li>
+                <li class="wb-icon">
+                    <img src="images/code_wb.png" alt=""/>
+                </li>
+                <li class="to-top" id="totop"></li>
+            </ul>
+        </div>
+    </div>
+    <!--rightContent end-->
+
+    <!--user start-->
+    <div class="click-bg"></div>
+    <div class="click-data">
+        <span class="click-close" id="click-close"></span>
+
+        <div class="login">
+            <div class="login-left">
+                <form action="POST">
+                    <p class="user-head">已注册用户</p>
+
+                    <p class="user-head2">请于下方输入您的手机号码和密码，以登录您的账户</p>
+
+                    <div class="user-input-warp">
+                        <input id="uesr-tel" type="text" class="input" name="username" maxlength="11"
+                               onkeyup="this.value=this.value.replace(/\D/g,'')"
+                               onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+                        <span class="user-tel">手机号码*</span>
+                    </div>
+                    <div class="user-wall"></div>
+                    <div class="user-input-warp">
+                        <input id="uesr-psd" type="password" class="input" name="password"/>
+                        <span class="user-psd">密码*</span>
+                    </div>
+                    <p>
+                        <a href="#" class="forget-psd">忘记密码了?</a>
+                    </p>
+                    <span class="user-remember">下次记住我的信息</span>
+                    <i class="remember"><s class="remember2"></s></i>
+                    <span class="user-all-click">点击登录</span>
+                </form>
+            </div>
+            <div class="user-wall2"></div>
+            <div class="login-right">
+                <p class="user-head">新用户</p>
+
+                <p>现在注册，即可成为Banana Umbrella会员，获得VIP尊享服务。</p>
+
+                <p class="">你可以：</p>
+
+                <p>-接收时事通讯</p>
+
+                <p>-获得新品上市、独家限量设计新闻以及促销讯息</p>
+
+                <p>-实现更快捷的结账流程</p>
+
+                <p>-管理您的订单和退货信息</p>
+
+                <p class=""><span class="user-all-click">注册</span></p>
+
+            </div>
+        </div>
+    </div>
+    <!--register start-->
+    <div class="users-register" id="users-register" style="display: none">
+        <form method="post">
+            <div class="users-register-head">
+                <span class="click-close" id="click-close2"></span>
+
+                <p class="users-register-tip">新用户</p>
+
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="mobile" maxlength="11"
+                           onkeyup="this.value=this.value.replace(/\D/g,'')"
+                           onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+                    <span class="input-bor">输入手机号码*</span>
+                </div>
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="sms_verifycode">
+                    <span class="input-bor">输入手机验证码*</span>
+                </div>
+                <div class="users-register-wamp">
+                    <input type="password" name="regpassword" class="input" maxlength="12">
+                    <span class="input-bor">输入6~12字符密码*</span>
+
+                </div>
+                <div class="users-register-wamp">
+                    <input type="password" name="re_regpassword" class="input" maxlength="12">
+                    <span class="input-bor">确认密码*</span>
+
+                </div>
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="name">
+                    <span class="input-bor">昵称*</span>
+                </div>
+                <span class="user-all-click">注册</span>
+            </div>
+        </form>
+    </div>
+    <!--register end-->
+    <!--user end-->
+    <!--centerContent start-->
+    <div class="center">
+        <div class="center-top">
+            <div class="top-contact">
+                常见问题
+            </div>
+
+            <div class="contact-bottom">
+                <p>我们的工作时间：周一至周六 09:00 - 18:00，法定节假日除外。</p>
+
+                <p>为了提高服务质量，我们已开通400客服热线电话：4008-010-940。欢迎于上述工作时间内点击“在线咨询”按钮或拨打400电话，专业客服将为您提供服务。</p>
+
+                <p>邮箱：bananaumbrella@janezt.com</p>
+
+                <p>在线咨询</p>
+
+            </div>
+
+            <div class="wenti-list">
+                <ul class="wenti-list1">
+                    <li>常见问题</li>
+                    <li><i></i>我如何变更我的帐户详细资料？
+                        <p>
+                            请前往我的账户，然后使用您的电子邮件地址和密码登录帐户。选择“修改资料”以更新资料，请记住点击“修改”按钮。基于个人账户的安全考虑，我们可能询问详细信息以确认您的身份。
+                        </p></li>
+                    <li><i></i>如果我忘记了密码，怎么办？<p>
+                        请到访我的帐户，选择“登录/注册”，然后选择“忘记了密码？”。我们将通过电子邮件发送新密码。基于个人账户的安全考虑，我们可能询问详细信息以确认您的身份。
+                    </p></li>
+                    <li><i></i>在Banana Umbrella网站购物是否安全？<p>
+                        我们的网站具备顶级的安全系统以加密您的付款详细信息，使信息无法在网上被其他人读取。如需了解完整信息，请参阅我们的隐私政策。
+                    </p></li>
+                    <li><i></i>如何知道我购买的是否是Banana Umbrella正品？
+                        <p>Banana Umbrella商品仅限Banana Umbrella.com ; Banana Umbrella天猫店铺以及指定授权分销商有售。Banana
+                            Umbrella无法保证从其他来源购买的商品是否为正品。</p>
+
+                        <p>Banana Umbrella没有官方折扣网站或声称自己是出售Banana Umbrella正品、而实际上却是出售假冒伪劣商品的折扣网站。</p>
+
+                        <p>如果您还有任何疑问，欢迎随时联系我们。我们的服务时间：周一至周六 09:00 - 18:00，法定节假日除外，如有变更，以官网公告为准。</p>
+                    </li>
+                </ul>
+                <ul class="wenti-list1">
+                    <li>在线购物</li>
+                    <li><i></i>付款方式
+                        <p>
+                            Banana Umbrella接受以下付款方式：<br><br>
+                            ①支付宝
+                        </p></li>
+                    <li><i></i> 发票<p>
+                        对于所有在www.bananaumbrella.com上提交的订单，我们会将发票与商品一起配送。如果您想退还订单中的商品，请务必将原始发票和退货商品一并退回。如果没有原始发票，将不予处理退款。
+                    </p></li>
+                    <li><i></i> 我可以追踪订单吗？<p>
+                        如果您已注册Banana Umbrella帐户，请选择我的帐户，登录后选择“我的订单”标签，追踪您的订单物流信息。
+                    </p></li>
+                </ul>
+                <ul class="wenti-list1">
+                    <li>退货退款与取消订单</li>
+                    <li><i></i>退还订购商品
+                        <p>Banana Umbrella为寄出后30天以内的商品提供免费退货服务，前提是满足下面指定的退货条件。</p>
+                        <p>所购商品须与原始退货表一同退回，必须附上退货商品的原始发票。退回的商品必须保持未使用的原始状态，并需附上所有Banana Umbrella商品标签及相关赠品或所包含的说明书。</p>
+                        <p>如何退还订购商品</p>
+                        <br>
+                        <p>1. 将商品放于原始配送箱中；</p>
+                        <p>2. 联系快递公司寄送您要退货的商品，并保留快递编号回执，方便您进行物流跟踪；</p>
+                        <p>3. 在我的订单页面在线提交退货申请，请务必认真填写真实有效的退货快递单号；</p>
+                        <p>4. 在收到退货商品之后，Banana Umbrella会针对原始订单处理您的退款。</p>
+                        <p>重要提示：Banana Umbrella对退回商品因物流公司造成的损坏不承担任何责任。</p>
+
+                    </li>
+                    <li><i></i>如果我忘记了密码，怎么办？<p>
+                        请到访我的帐户，选择“登录/注册”，然后选择“忘记了密码？”。我们将通过电子邮件发送新密码。基于个人账户的安全考虑，我们可能询问详细信息以确认您的身份。
+                    </p></li>
+                    <li><i></i>在Banana Umbrella网站购物是否安全？<p>
+                        我们的网站具备顶级的安全系统以加密您的付款详细信息，使信息无法在网上被其他人读取。如需了解完整信息，请参阅我们的隐私政策。
+                    </p></li>
+                    <li><i></i>如何知道我购买的是否是Banana Umbrella正品？
+                        <p>Banana Umbrella商品仅限Banana Umbrella.com ; Banana Umbrella天猫店铺以及指定授权分销商有售。Banana
+                            Umbrella无法保证从其他来源购买的商品是否为正品。</p>
+
+                        <p>Banana Umbrella没有官方折扣网站或声称自己是出售Banana Umbrella正品、而实际上却是出售假冒伪劣商品的折扣网站。</p>
+
+                        <p>如果您还有任何疑问，欢迎随时联系我们。我们的服务时间：周一至周六 09:00 - 18:00，法定节假日除外，如有变更，以官网公告为准。</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--centerContent end-->
+</div>
+</body>
+</html>

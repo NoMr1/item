@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>隐私政策</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/law.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div class="all-warp">
+    <!--leftContent start-->
+    <div class="all-left">
+        <div class="all-left-content">
+            <div class="left-logo">
+                <a href="javascript:;">
+                    <img src="images/logo.png" alt=""/>
+                </a>
+            </div>
+            <ul class="all-left-list">
+                <li><a href="black.html">Black系列</a></li>
+                <li><a href="air.html">Air系列</a></li>
+                <li><a href="bon.html">Bon系列</a></li>
+                <li><a href="joli.html">Joli系列</a></li>
+                <li><a href="moma.html">Moma系列</a></li>
+                <li><a href="world.html">我们的世界</a></li>
+            </ul>
+            <div class="all-left-bottom">
+                <ul class="all-left-bottom-content">
+                    <li>
+                        <a href="contact.html">
+                            <i class="left-ico1"></i>
+                            联系我们
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="wenti.html">
+                            <i class="left-ico2"></i>
+                            常见问题
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demand.html">
+                            <i class="left-ico3"></i>
+                            防伪查询
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="join.html">
+                            <i class="left-ico4"></i>
+                            加入我们
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="has-list">
+                            <i class="left-ico5"></i>
+                            法律声明
+                        </a>
+
+                        <div class="left-other" style="display:none">
+                            <a href="teaching.html">
+                                <p>--法律启示</p>
+                            </a>
+                            <a href="hide.html">
+                                <p>--隐私声明</p>
+                            </a>
+                            <a href="apply.html">
+                                <p>--使用条款</p>
+                            </a></div>
+                    </li>
+                </ul>
+                <div class="email-main">
+                    <p class="email-tip">
+                        <span class="email-tip-ico"></span>
+                        订阅邮件：
+                    </p>
+
+                    <p class="email-address">请输入合法的邮箱地址!</p>
+
+                    <div class="email-address-input">
+                        <input type="email" name="email" placeholder="请输入邮箱地址" id="emailAddress">
+                        <span id="emailDeliveryButton">
+                            <i></i>
+                        </span>
+                    </div>
+                </div>
+                <p class="left-bottom-last">浙ICP备14041663号-2<br/><br/>公安机关备案号33010802004721</p>
+            </div>
+        </div>
+    </div>
+    <div class="all-left-mark"></div>
+    <!--leftContent end-->
+    <!--rightContent start-->
+    <div class="all-right">
+        <div class="all-rightTOP">
+            <ul class="right-list">
+                <li>
+                    <span>
+                        <i class="r-ico1"></i>
+                        <a href="javascript:;" id="user-enter"> 登录/注册</a>
+                    </span>
+                </li>
+                .
+                <li>
+                    <span class="right-car">
+                        <i class="r-ico2"></i>
+                        <a href="javascript:;">我的购物袋</a>
+
+                         <div class="show-commodity">
+                             您的购物袋中暂无商品。
+                         </div>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="r-ico3"></i>
+                        <a href="javascript:;">客户服务</a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="r-ico4"></i>
+                        <a href="javascript:;">在线客服</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="all-rightBOTTOM">
+            <ul class="right-bottom">
+                <li class="wx-icon">
+                    <img src="images/code_wx.png" alt="" id="code-wx"/>
+                </li>
+                <li class="wb-icon">
+                    <img src="images/code_wb.png" alt=""/>
+                </li>
+                <li class="to-top" id="totop"></li>
+            </ul>
+        </div>
+    </div>
+    <!--rightContent end-->
+
+    <!--user start-->
+    <div class="click-bg"></div>
+    <div class="click-data">
+        <span class="click-close" id="click-close"></span>
+
+        <div class="login">
+            <div class="login-left">
+                <form action="POST">
+                    <p class="user-head">已注册用户</p>
+
+                    <p class="user-head2">请于下方输入您的手机号码和密码，以登录您的账户</p>
+
+                    <div class="user-input-warp">
+                        <input id="uesr-tel" type="text" class="input" name="username" maxlength="11"
+                               onkeyup="this.value=this.value.replace(/\D/g,'')"
+                               onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+                        <span class="user-tel">手机号码*</span>
+                    </div>
+                    <div class="user-wall"></div>
+                    <div class="user-input-warp">
+                        <input id="uesr-psd" type="password" class="input" name="password"/>
+                        <span class="user-psd">密码*</span>
+                    </div>
+                    <p>
+                        <a href="#" class="forget-psd">忘记密码了?</a>
+                    </p>
+                    <span class="user-remember">下次记住我的信息</span>
+                    <i class="remember"><s class="remember2"></s></i>
+                    <span class="user-all-click">点击登录</span>
+                </form>
+            </div>
+            <div class="user-wall2"></div>
+            <div class="login-right">
+                <p class="user-head">新用户</p>
+
+                <p>现在注册，即可成为Banana Umbrella会员，获得VIP尊享服务。</p>
+
+                <p class="">你可以：</p>
+
+                <p>-接收时事通讯</p>
+
+                <p>-获得新品上市、独家限量设计新闻以及促销讯息</p>
+
+                <p>-实现更快捷的结账流程</p>
+
+                <p>-管理您的订单和退货信息</p>
+
+                <p class=""><span class="user-all-click">注册</span></p>
+
+            </div>
+        </div>
+    </div>
+    <!--register start-->
+    <div class="users-register" id="users-register" style="display: none">
+        <form method="post">
+            <div class="users-register-head">
+                <span class="click-close" id="click-close2"></span>
+
+                <p class="users-register-tip">新用户</p>
+
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="mobile" maxlength="11"
+                           onkeyup="this.value=this.value.replace(/\D/g,'')"
+                           onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+                    <span class="input-bor">输入手机号码*</span>
+                </div>
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="sms_verifycode">
+                    <span class="input-bor">输入手机验证码*</span>
+                </div>
+                <div class="users-register-wamp">
+                    <input type="password" name="regpassword" class="input" maxlength="12">
+                    <span class="input-bor">输入6~12字符密码*</span>
+
+                </div>
+                <div class="users-register-wamp">
+                    <input type="password" name="re_regpassword" class="input" maxlength="12">
+                    <span class="input-bor">确认密码*</span>
+
+                </div>
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="name">
+                    <span class="input-bor">昵称*</span>
+                </div>
+                <span class="user-all-click">注册</span>
+            </div>
+        </form>
+    </div>
+    <!--register end-->
+    <!--user end-->
+    <!--centerContent start-->
+    <div class="center">
+        <div class="center-top">
+            <div class="top-contact">
+                隐私声明
+            </div>
+
+            <div class="contact-bottom">
+                <h2>1. 信息的收集和使用</h2>
+
+                <p>
+                    1.1为了以创建账户、识别用户、回应查询和邮件等方式来为您提供服务、改进软件性能和外观、推荐新功能/新产品等目的，减字科技会要求您提供个人信息（包括但不限于您的姓名、电话号码、电子邮件地址等），并且会收集其他与您相关的信息（包括但不限于设备信息、日志信息、位置信息以及其他类似的特征记录）。</p>
+
+                <p>1.2减字科技的用户体验改进计划是基于对使用数据的统计，来诊断系统问题，优化产品体验的计划。我们会使用 Google Analytics
+                    等工具统计您在使用减字科技产品过程中产生的数据信息。我们在用户体验改进计划中仅会累计所有用户的总体使用数据，不会收录或上传任何涉及您个人身份信息的内容。前述统计内容包括但不限于：应用启动数，页面访问数，重点按钮点击数，设置项的配置属性等。随着减字科技产品的后续版本升级，我们统计的范围会有所改变，您下载/安装/使用后续版本减字科技产品的行为将被视为您对届时相关改变的同意。</p>
+
+                <p>1.3减字科技可能会将您通过自己的帐户提交的信息与减字的其他服务或第三方的信息相结合，以便为您提供更好的体验并提高减字科技的服务质量。</p>
+
+                <p>
+                    1.4减字科技的产品和服务中可能含有第三方产品和/或服务的链接或信息。如果您将个人信息填写在其他平台上或通过第三方程序提交/发布，则该方可能会获知您的信息。该第三方应用程序可能有其相应的隐私政策规定，请仔细查看，并在提供个人信息前请仔细考虑清楚。本隐私政策不适用于第三方向您收集信息的行为，减字科技无法控制第三方的行为，因此也不会对第三方收集、使用您信息的行为承担责任。</p>
+
+                <p>1.5Cookies的使用和管理</p>
+
+                <p>
+                    1.5.1在您未拒绝接受cookies的情况下，减字科技会在您的计算机上设定或取用cookies，以便您能登录或使用依赖于cookies的平台服务或功能。我们使用cookies可为您提供更加周到的个性化服务，包括推广服务。</p>
+
+                <p>
+                    1.5.2您有权选择接受或拒绝接受cookies。您可以通过修改浏览器设置的方式拒绝接受cookies。但如果您选择拒绝接受cookies，则您可能无法登录或使用依赖于cookies的平台服务或功能。</p>
+
+                <p>1.5.3通过减字科技所设cookies所取得的有关信息，将适用本政策；</p>
+
+                <p>
+                    1.6减字科技将严格遵守有关法律法规和本隐私政策所载明的内容收集、使用您的信息。除非持有减字科技官方出具的授权文件，否则减字科技的具体工作人员不会直接向您索要个人信息。如遇此类情况，您可以直接与减字科技联系。</p>
+
+                <h2>2. 信息的披露</h2>
+
+                <p>2.1除非法律法规规定、政府部门要求或本隐私政策载明的例外情况，减字科技会妥善保存您的信息，不予泄露。</p>
+
+                <p>2.2您于此授权，在以下情形中，减字科技可以向第三方披露您的信息而无需再行获得您的同意：</p>
+
+                <p>2.2.1如果减字科技披露这些信息是用来识别、联系或向可能对减字科技的权利或财产、网站用户或者其他任何人（包括其他任何人的权利和财产）造成损害之行为提起诉讼之必要；</p>
+
+                <p>
+                    2.2.2减字科技将个人信息提供给减字科技的关联方或其他有合作关系的企业或个人，以便其代表/协助减字科技处理这些信息。减字科技要求上述各方同意按照减字科技的规定、本隐私政策以及有关法律法规之规定来处理这些信息。</p>
+
+                <h2>3. 信息安全</h2>
+
+                <p>
+                    3.1减字科技将尽合理的努力保障您的信息安全，但是您应当知晓减字科技不能完全避免与个人信息安全相关的风险（特别是发生减字科技无法控制的情况时，如不可抗力或第三方原因），因此，减字科技对隐私信息的维护或保密无法做出任何确定性的保证或承诺。如果减字科技知悉其所获取并储存的数据安全受到危害或由于外部行为（包括但不限于外部安全攻击）使用户的非公开信息被披露给不相关第三方，尽管本政策中有其他免责规定，减字科技仍将采取其认为适当的合理措施（包括但不限于内部调查、上报并通知执法机构、以及配合执法机构工作等）。同时，减字科技也会在其认为适当的情况下采取合法合理措施通知相关用户，告知其被披露的信息以及减字科技对该信息的知悉程度。</p>
+
+                <p>3.2您应当注意保护您的个人信息安全。例如，不要泄露您的个人密码等。</p>
+
+                <p>3.3减字科技会采取必要手段、努力防止内部工作人员越权获取/利用/泄露您的信息。</p>
+
+                <h2>4. 对未成年人信息的收集和使用</h2>
+
+                <p>4.1减字科技要求未成年人在其法定监护人的许可和指导下使用减字科技的产品或服务。</p>
+
+                <p>4.2如果您是未成年人，您需要确保在提供个人信息前，已经获得了您法定监护人的同意。</p>
+
+                <h2>5. 本隐私政策的修订</h2>
+
+                <p>虽然本隐私声明说明了减字科技在保护隐私方面所遵循的标准，但这些标准可能会发生变化。如有更新，减字科技会在发布修订版本时以减字科技认为适当的方式通知您变动内容和生效日期。</p>
+            </div>
+        </div>
+    </div>
+    <!--centerContent end-->
+</div>
+</body>
+</html>

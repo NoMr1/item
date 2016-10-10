@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用条款</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/law.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div class="all-warp">
+    <!--leftContent start-->
+    <div class="all-left">
+        <div class="all-left-content">
+            <div class="left-logo">
+                <a href="javascript:;">
+                    <img src="images/logo.png" alt=""/>
+                </a>
+            </div>
+            <ul class="all-left-list">
+                <li><a href="black.html">Black系列</a></li>
+                <li><a href="air.html">Air系列</a></li>
+                <li><a href="bon.html">Bon系列</a></li>
+                <li><a href="joli.html">Joli系列</a></li>
+                <li><a href="moma.html">Moma系列</a></li>
+                <li><a href="world.html">我们的世界</a></li>
+            </ul>
+            <div class="all-left-bottom">
+                <ul class="all-left-bottom-content">
+                    <li>
+                        <a href="contact.html">
+                            <i class="left-ico1"></i>
+                            联系我们
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="wenti.html">
+                            <i class="left-ico2"></i>
+                            常见问题
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demand.html">
+                            <i class="left-ico3"></i>
+                            防伪查询
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="join.html">
+                            <i class="left-ico4"></i>
+                            加入我们
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="has-list">
+                            <i class="left-ico5"></i>
+                            法律声明
+                        </a>
+
+                        <div class="left-other" style="display:none">
+                            <a href="teaching.html">
+                                <p>--法律启示</p>
+                            </a>
+                            <a href="hide.html">
+                                <p>--隐私声明</p>
+                            </a>
+                            <a href="apply.html">
+                                <p>--使用条款</p>
+                            </a></div>
+                    </li>
+                </ul>
+                <div class="email-main">
+                    <p class="email-tip">
+                        <span class="email-tip-ico"></span>
+                        订阅邮件：
+                    </p>
+
+                    <p class="email-address">请输入合法的邮箱地址!</p>
+
+                    <div class="email-address-input">
+                        <input type="email" name="email" placeholder="请输入邮箱地址" id="emailAddress">
+                        <span id="emailDeliveryButton">
+                            <i></i>
+                        </span>
+                    </div>
+                </div>
+                <p class="left-bottom-last">浙ICP备14041663号-2<br/><br/>公安机关备案号33010802004721</p>
+            </div>
+        </div>
+    </div>
+    <div class="all-left-mark"></div>
+    <!--leftContent end-->
+    <!--rightContent start-->
+    <div class="all-right">
+        <div class="all-rightTOP">
+            <ul class="right-list">
+                <li>
+                    <span>
+                        <i class="r-ico1"></i>
+                        <a href="javascript:;" id="user-enter"> 登录/注册</a>
+                    </span>
+                </li>
+                .
+                <li>
+                    <span class="right-car">
+                        <i class="r-ico2"></i>
+                        <a href="javascript:;">我的购物袋</a>
+
+                         <div class="show-commodity">
+                             您的购物袋中暂无商品。
+                         </div>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="r-ico3"></i>
+                        <a href="javascript:;">客户服务</a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="r-ico4"></i>
+                        <a href="javascript:;">在线客服</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="all-rightBOTTOM">
+            <ul class="right-bottom">
+                <li class="wx-icon">
+                    <img src="images/code_wx.png" alt="" id="code-wx"/>
+                </li>
+                <li class="wb-icon">
+                    <img src="images/code_wb.png" alt=""/>
+                </li>
+                <li class="to-top" id="totop"></li>
+            </ul>
+        </div>
+    </div>
+    <!--rightContent end-->
+
+    <!--user start-->
+    <div class="click-bg"></div>
+    <div class="click-data">
+        <span class="click-close" id="click-close"></span>
+
+        <div class="login">
+            <div class="login-left">
+                <form action="POST">
+                    <p class="user-head">已注册用户</p>
+
+                    <p class="user-head2">请于下方输入您的手机号码和密码，以登录您的账户</p>
+
+                    <div class="user-input-warp">
+                        <input id="uesr-tel" type="text" class="input" name="username" maxlength="11"
+                               onkeyup="this.value=this.value.replace(/\D/g,'')"
+                               onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+                        <span class="user-tel">手机号码*</span>
+                    </div>
+                    <div class="user-wall"></div>
+                    <div class="user-input-warp">
+                        <input id="uesr-psd" type="password" class="input" name="password"/>
+                        <span class="user-psd">密码*</span>
+                    </div>
+                    <p>
+                        <a href="#" class="forget-psd">忘记密码了?</a>
+                    </p>
+                    <span class="user-remember">下次记住我的信息</span>
+                    <i class="remember"><s class="remember2"></s></i>
+                    <span class="user-all-click">点击登录</span>
+                </form>
+            </div>
+            <div class="user-wall2"></div>
+            <div class="login-right">
+                <p class="user-head">新用户</p>
+
+                <p>现在注册，即可成为Banana Umbrella会员，获得VIP尊享服务。</p>
+
+                <p class="">你可以：</p>
+
+                <p>-接收时事通讯</p>
+
+                <p>-获得新品上市、独家限量设计新闻以及促销讯息</p>
+
+                <p>-实现更快捷的结账流程</p>
+
+                <p>-管理您的订单和退货信息</p>
+
+                <p class=""><span class="user-all-click">注册</span></p>
+
+            </div>
+        </div>
+    </div>
+    <!--register start-->
+    <div class="users-register" id="users-register" style="display: none">
+        <form method="post">
+            <div class="users-register-head">
+                <span class="click-close" id="click-close2"></span>
+
+                <p class="users-register-tip">新用户</p>
+
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="mobile" maxlength="11"
+                           onkeyup="this.value=this.value.replace(/\D/g,'')"
+                           onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+                    <span class="input-bor">输入手机号码*</span>
+                </div>
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="sms_verifycode">
+                    <span class="input-bor">输入手机验证码*</span>
+                </div>
+                <div class="users-register-wamp">
+                    <input type="password" name="regpassword" class="input" maxlength="12">
+                    <span class="input-bor">输入6~12字符密码*</span>
+
+                </div>
+                <div class="users-register-wamp">
+                    <input type="password" name="re_regpassword" class="input" maxlength="12">
+                    <span class="input-bor">确认密码*</span>
+
+                </div>
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="name">
+                    <span class="input-bor">昵称*</span>
+                </div>
+                <span class="user-all-click">注册</span>
+            </div>
+        </form>
+    </div>
+    <!--register end-->
+    <!--user end-->
+    <!--centerContent start-->
+    <div class="center">
+        <div class="center-top">
+            <div class="top-contact">
+                使用条款
+            </div>
+
+            <div class="contact-bottom">
+                <h2>一，使用本网站</h2>
+
+                <p>1，本条款和条件以及其中提到的任何其他政策（包括本条款和条件中提供链接的任何政策或文件）（合称本“条款”）适用于您对本网站以及允许您向 Banana
+                    Umbrella下订单订购任何发送至您送货地址的产品和服务的任何其他网站的使用和访问行为，包括
+                    您提交的、购买我们在本网站可供购买的任何发送至中国境内地址的产品或服务的一切订单。在上下文允许的情况下，在本条款中凡述及“网站”
+                    之处。访问本网站，即表明您已同意本条款，因此我们建议您仔细阅读本条款，并保存或打印本条款以供将来参
+                    考。如果您不同意本条款，您必须立刻停止使用和访问本网站及一切应用程序。本条款可能会随时进行修订和更新，且任何的修订将在新条款公布在网站之时生效。请注意我们网站上的所有可用服务不一定在使用移动装备接入的任何应用程序上可以提供。</p>
+
+                <p>2，请注意本条款不影响您作为消费者的法定权利。</p>
+
+                <p>3，您同意，您在本网站注册时提供的信息在各方面不存在误导性，且真实、准确，并且，该等信息如有变化，您会通知我们的客服人员。</p>
+
+                <p>4，我们可经事先通知或未经通知，改变、取消或中止对本网站的（全部或部分地，永久或暂时地）访问，且不对您承担任何责任。</p>
+
+                <p>5，本网站可能包含对其他网站或资源的链接（下称"被链接网站") 。Banana Umbrella对被链接网站的内容并无控制权，并且，您同意，您一旦使用本网站的某一链接来访问某被链接网站，Banana
+                    Umbrella不对该被链接网站的可 正常访问性负责，不以任何方式对该被链接网站的内容承担责任，包括（但不限于）该被链接网站可提供的任何货物或服务、该被链接网站上的其他广告或内容或该
+                    被链接网站对您的个人信息的使用。此外，Banana Umbrella不对您使用或信赖该被链接网站或其内容引发的或相关的任何不悦、损害或损失承担责任。</p>
+
+                <p>6，Banana Umbrella可能在任何时候自行决定拒绝您访问本网站。我们可能拒绝您访问的情况包括但不限于我们认为您对本网站的使用行为违反了或未尊重本条款、任何法律或任何第三方的权利。</p>
+
+                <p>7，您上传发布至本网站的任何材料均将被视为非保密性的且非专有的材料，我们有权以任何目的使用、复印、散布、复制、采用、修订、变更以及/或向第三方散布或披露该等材料。</p>
+
+                <p>8，您在此同意，就与您使用本网站有关的任何索赔造成Banana Umbrella发生或蒙受的任何成本、损害、费用、损失和负债，您对Banana Umbrella负责，赔偿Banana
+                    Umbrella并确保Banana Umbrella免于损失。</p>
+
+                <p>9，Banana Umbrella有权自行决定移除您在本网站的任何资料</p>
+
+                <h2>二，购买产品</h2>
+
+                <h2>1. 接受订单</h2>
+
+                <p>
+                    1.1，您同意，您的订单是您提出的按照条款购买您订单中所列产品（下称“产品”）的要约。您提交的所有订单均以我们的承诺接受与否为准。我们可以自行决定以任何理由选择不接受您的订单，而无需对您承担任何责任。我们可能不接受您的订单的情况举例如下：</p>
+
+                <p>(a) 如果本网站展示的产品缺货，或标价不准确，或者在任何方面描述不准确；</p>
+
+                <p>(b) 如果我们无法取得有关您付款的信息和授权；</p>
+
+                <p>(c) 如果您大量订购某单个产品，并送货至任一相同的顾客或送货地址；</p>
+
+                <p>(d) 如果该产品受到运输限制；或</p>
+
+                <p>(e) 如果我们无法履行订单；或</p>
+
+                <p>(f) 您提供的送货地址为提供货运代理服务的个人或实体的地址。</p>
+
+                <p>
+                    1.2，当您第一次向我们下订单时，我们可能会要求您或由您选择注册并填写一个订单表格中某些需要的内容。我们可能会向您提供或要求您使用账号和密码或其他方式，使您能够访问本网站的特定区域，如网站的“我的账户”部分（下称"安全访问信息"）。我们这样做的前提在于您应该负责确保该等安全访问信息始终安全、保密。您应遵守我们给予的一切安全指南和建议，并在您知晓或怀疑有人未经授权使用安全访问信息时，或在安全访问信息被未授权方所知悉时，立刻通知我们。在不损害我们的其他权利和救济之情形下，
+                    如果我们合理地认为中止您对本网站的访问系保护本网站所必要，我们便可中止您访问本网站，且不向您承担任何责任。</p>
+
+                <p>1.3，如果持续不操作导致您与本网站的连接中断，您选择的货物可能无法保存。在这种情况下，您需要重新选择。请注意，您的购物袋中的产品不会被保留且可能被其他顾客买走。</p>
+
+                <p>1.4，在提交订单之前，您将有机会检查您的选择，确认您的订单的总价，并且改正任何输入错误。</p>
+
+                <p>
+                    1.5，我们会在您提交订单并完成了您的支付方式的确认步骤之时，向你收取产品的费用（以及相关运费或或其他费用）。您所订购的产品已被分派以运送至您选择的收货地址，您的订单才算最终被接受，合同才告成立。</p>
+
+                <p>
+                    1.6，通过本网站销售的一切产品均与它们的描述一致，但是，在我们使用的加工工艺和您用于浏览本网站的计算机硬件的显示属性之间的差异，可能会导致本网站展示的产品和您收到的产品在颜色、材质以及设计方面可能存在表面上的细微差异。</p>
+
+                <p>
+                    1.7，我们不接受相应收货地址为提供货运代理服务的实体或个人的地址的订单。若我们接受了一份订单，并且随后意识到此订单的送货地址为提供货运代理服务的实体或个人的地址，我们有权通过邮件或电话向您发出通知，取消此订单。</p>
+
+                <h2>2. 价格</h2>
+
+                <p>
+                    2.1，本网站上，产品的一切价格仅代表产品价格。价格已包含应付的增值税或其他营业税。如果显示的价格不充分包括任何关税或税款，我们会尽力通知您，但请参阅下文第三部份2.4。价格并不包含送货可能适用的运费。</p>
+
+                <p>2.2，我们尽力确保本网站的一切价格信息的准确性。但是，错误可能会偶然发生，产品可能会被标错价格。如果某产品的正确价格低于网站标明的价格，我们将会收取较
+                    低的价格并向您交货，或者取消您的订单。如果某产品的正确价格高于本网站标明的价格，我们将会自行决定：或是联络您并询问您是否按实际价格执行订单，或是
+                    取消您的订单并通知您。我们没有义务按错误价格提供产品。</p>
+
+                <p>2.3，Banana Umbrella可在任何时候变更本网站上的产品价格，且不作任何通知；但是，该等变更不适用于您已经收到派送确认书的产品。</p>
+
+                <p>2.4，请注意：在一些国家，您可能会因收到货物而需向当地税务部门缴纳额外的税款。您将自行负责缴纳任何该等进口关税和税款。请注意：我们无法控制该等税费且无
+                    法预测其金额。请在下订单之前，联络您当地的海关部门了解更多信息。还请注意：您必须遵守产品目的地国家的全部适用法律和法规。我们对您违反该等法律不承 担任何责任。</p>
+
+                <h2>3. 支付条款</h2>
+
+                <p>3.1，您的订单的总费用是产品的购买价格（向我们支付）加上任何运费。</p>
+
+                <p>3.2，关于我们接受的付款方式的更多信息，以及何时在您的账户中扣款的详情，参见客户服务“支付”部分。</p>
+
+                <p>3.3，请注意：我们接受以我们的支付部分里指定的您所选择的送货目的地所在国家的货币付款。 收货地址在中国境内的订单应以人民币支付。</p>
+
+                <p>
+                    3.4，您确认，您正在使用的支付方式归属于您，且您提供给我们的一切详细资料，包括但不限于姓名和地址信息，均完整、正确、准确。您进一步确认，您的付款方式有效，且您提供的付款信息正确。所有任何支付账户持有人均受制于发卡行或支付方式提供方的有效性确认和授权。如果您所持卡的发卡行或支付方式提供方拒绝授权支付，则我们不会接受您的订单，我们也不会对任何迟延交付或者不发货承担责任，且我们没有义务通知你们拒绝的原因。</p>
+
+                <p>3.5，对于因我们处理与您的订单相关的支付方式引起的您的发卡行或银行或支付方式提供方可能向您收取的任何费用或金额，我们不承担任何责任。</p>
+
+                <p>
+                    3.6，如果您的支付方式并非以本网站上标示的货币结算，则最终的价格将以您的账户使用的货币结算。该最终价格由您的发卡行或银行或支付方式提供方计算并结算，因此对于任何由于您的发卡行或支付方式提供方以本网站上所示您购买所使用的货币不同的货币进行的结算，而可能引起的您的任何开支、费用、收费或其他责任，我们不承担任何责任。</p>
+
+                <h2>4. 开票：</h2>
+
+                <p>如果我们选择或按有关法律规定开具或提供发票，我们保留开具或提供发票的权利，且您同意该等开票形式。我们将在我们认为适当时提供所订购产品的发票。</p>
+
+                <h2>5. 送货、所有权和风险</h2>
+
+                <p>5.1，订单中的产品会被递送至您在订单中提供的送货地址。如果该送货地址不正确或不完整，不承担任何责任。请注意：我们不会递送产品至任何邮政信箱。</p>
+
+                <p>
+                    5.2我们可不时提供一种或多种送货方式。当您从我们为您所选定的送货目的地提供的送货方式中选出您喜欢的送货方式（且如果订单已经被我们接受、授权并完成付款），则我们将会处理您的订单，并争取在预计送达时间内将您订购的产品送到。在任何规定的“截止时间”或“最后订单时间”后或在非工作日收到的订单，将会在下一个工作日得到处理。预计的送达时间将会从处理订单、您完成付款之日起计算。</p>
+
+                <p>
+                    如果您选择了送达服务，但我们未能在您所选择的送货目的地以及送货方式所对应的预计送达时间内及时将您订购的产品送达，则您享有的唯一救济就是有权取消相关订单并收到我们对于您已向我们支付的任何款项的全额退款。</p>
+
+                <p>5.3产品的所有权转移给您的时间，以下列两者中孰晚者为准：</p>
+
+                <p>(a)我们收到该等产品的全部价款的日期；</p>
+
+                <p>(b)产品递送至您指定的送货地址的日期和时间。</p>
+
+                <p>5.4一旦产品递送至您指定的地址，产品的一切损害或损失风险即转移给您。</p>
+
+                <p>5.5如果在Banana Umbrella将某产品送达后，该产品被进口到另一国家（而非Banana Umbrella将产品送达的国家或者您收取产品的Banana
+                    Umbrella门店所在的国家），您应当负责遵守与该等进口有关的所有当地的进口要求、法律、法规、规则，并支付可能适用于该等进口的所有进口税费</p>
+
+                <h2>6. 取消订单和退货</h2>
+
+                <p>6.1如果您希望取消订单或退货，您只能根据我们退货和取消订单政策来取消订单或退货。该等“退货退款和取消订单”政策不影响您作为消费者的法定权利。</p>
+
+                <h2>7. 年龄要求</h2>
+
+                <p>如果您要订购某种有最低年龄限制的产品，通过下订单您便确认您已达到所要求的年龄。如果我们合理地认为您在法律上无权订购某产品，我们保留取消您的订单的权利。</p>
+
+                <h2>三，一般规定</h2>
+
+                <h2>1. 数据保护：</h2>
+
+                <p>通过下订单，您同意并理解我们可根据我们的隐私权声明收集、使用、存储和处理您的个人数据。Banana Umbrella充分尊重访问并使用本网站的个人的隐
+                    私。要了解我们收集信息的种类、我们如何使用信息，信息使用的目的以及我们在何种情况下披露信息，请参见我们的隐私权声明该隐私权声明纳入并作为本条款的一部分。</p>
+
+                <h2>2. 转让、分包等</h2>
+
+                <p>
+                    我们保留转让、出让、更新或分包我们在本条款项下的所有或任何权利和义务的权利，但是，您在本条款项下的权利不受影响。未经我们的书面同意，您不得转让、分包或以其他方式出让您在本条款项下的任何权利和义务。</p>
+
+                <h2>3. 本条款的修改</h2>
+
+                <p>我们保留在任何时候修改本条款的权利。您以及您与我们之间的任何销售合同，均受制于您从我们这里订购有关产品之时本条款的有效版本。</p>
+
+                <h2>4. 超出我们的合理控制范围的事件</h2>
+
+                <p>如果我们迟延履行/遵守或未能履行/遵守我们在本条款项下的义务是因超出我们的合理控制范围的任何原因引起的，则我们不对该等迟延履行/遵守或未能履行/遵守的情况承担任何责任。</p>
+
+                <h2>5. 可分割性</h2>
+
+                <p>本条款的每一项规定应被单独和独立解释。如果任何规定被认为无效、无用或不能被强制执行，则该规定应被视为独立于本条款的其他规定，且不应影响其他规定的可强制执行性。</p>
+
+                <h2>6. Banana Umbrella员工</h2>
+
+                <p>从本网站订购产品且享受员工折扣的Banana Umbrella员工，同意其已阅读并遵守Banana Umbrella全球员工折扣政策中的条款。员工如对此折扣政策如有疑问，请联系人事部门。</p>
+
+                <h2>7. 全部协议</h2>
+
+                <p>7.1本条款及本条款中明确提到的任何文件，构成我们与您之间的全部协议，且取代我们与您之间与任何合同标的事项有关的任何先前的安排、理解或协议。</p>
+
+                <p>7.2我们每一方在此承认，己方同意本条款（以及本条款中提到的文件），未依赖任何人（无论是否为合同的一方）的说明、陈述、担保或保证（合称"陈述"），但本条款中明确规定的除外。</p>
+
+                <p>7.3我们每一方同意，可提供给己方的、因陈述引起的或与陈述有关的权利和救济，仅限于本条款提及的针对违约的权利和救济。</p>
+
+
+            </div>
+        </div>
+    </div>
+    <!--centerContent end-->
+</div>
+</body>
+</html>

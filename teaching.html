@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>法律启示</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/law.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div class="all-warp">
+    <!--leftContent start-->
+    <div class="all-left">
+        <div class="all-left-content">
+            <div class="left-logo">
+                <a href="javascript:;">
+                    <img src="images/logo.png" alt=""/>
+                </a>
+            </div>
+            <ul class="all-left-list">
+                <li><a href="black.html">Black系列</a></li>
+                <li><a href="air.html">Air系列</a></li>
+                <li><a href="bon.html">Bon系列</a></li>
+                <li><a href="joli.html">Joli系列</a></li>
+                <li><a href="moma.html">Moma系列</a></li>
+                <li><a href="world.html">我们的世界</a></li>
+            </ul>
+            <div class="all-left-bottom">
+                <ul class="all-left-bottom-content">
+                    <li>
+                        <a href="contact.html">
+                            <i class="left-ico1"></i>
+                            联系我们
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="wenti.html">
+                            <i class="left-ico2"></i>
+                            常见问题
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demand.html">
+                            <i class="left-ico3"></i>
+                            防伪查询
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="join.html">
+                            <i class="left-ico4"></i>
+                            加入我们
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="has-list">
+                            <i class="left-ico5"></i>
+                            法律声明
+                        </a>
+
+                        <div class="left-other" style="display:none">
+                            <a href="teaching.html">
+                                <p>--法律启示</p>
+                            </a>
+                            <a href="hide.html">
+                                <p>--隐私声明</p>
+                            </a>
+                            <a href="apply.html">
+                                <p>--使用条款</p>
+                            </a></div>
+                    </li>
+                </ul>
+                <div class="email-main">
+                    <p class="email-tip">
+                        <span class="email-tip-ico"></span>
+                        订阅邮件：
+                    </p>
+
+                    <p class="email-address">请输入合法的邮箱地址!</p>
+
+                    <div class="email-address-input">
+                        <input type="email" name="email" placeholder="请输入邮箱地址" id="emailAddress">
+                        <span id="emailDeliveryButton">
+                            <i></i>
+                        </span>
+                    </div>
+                </div>
+                <p class="left-bottom-last">浙ICP备14041663号-2<br/><br/>公安机关备案号33010802004721</p>
+            </div>
+        </div>
+    </div>
+    <div class="all-left-mark"></div>
+    <!--leftContent end-->
+    <!--rightContent start-->
+    <div class="all-right">
+        <div class="all-rightTOP">
+            <ul class="right-list">
+                <li>
+                    <span>
+                        <i class="r-ico1"></i>
+                        <a href="javascript:;" id="user-enter"> 登录/注册</a>
+                    </span>
+                </li>
+                .
+                <li>
+                    <span class="right-car">
+                        <i class="r-ico2"></i>
+                        <a href="javascript:;">我的购物袋</a>
+
+                         <div class="show-commodity">
+                             您的购物袋中暂无商品。
+                         </div>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="r-ico3"></i>
+                        <a href="javascript:;">客户服务</a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="r-ico4"></i>
+                        <a href="javascript:;">在线客服</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="all-rightBOTTOM">
+            <ul class="right-bottom">
+                <li class="wx-icon">
+                    <img src="images/code_wx.png" alt="" id="code-wx"/>
+                </li>
+                <li class="wb-icon">
+                    <img src="images/code_wb.png" alt=""/>
+                </li>
+                <li class="to-top" id="totop"></li>
+            </ul>
+        </div>
+    </div>
+    <!--rightContent end-->
+
+    <!--user start-->
+    <div class="click-bg"></div>
+    <div class="click-data">
+        <span class="click-close" id="click-close"></span>
+
+        <div class="login">
+            <div class="login-left">
+                <form action="POST">
+                    <p class="user-head">已注册用户</p>
+
+                    <p class="user-head2">请于下方输入您的手机号码和密码，以登录您的账户</p>
+
+                    <div class="user-input-warp">
+                        <input id="uesr-tel" type="text" class="input" name="username" maxlength="11"
+                               onkeyup="this.value=this.value.replace(/\D/g,'')"
+                               onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+                        <span class="user-tel">手机号码*</span>
+                    </div>
+                    <div class="user-wall"></div>
+                    <div class="user-input-warp">
+                        <input id="uesr-psd" type="password" class="input" name="password"/>
+                        <span class="user-psd">密码*</span>
+                    </div>
+                    <p>
+                        <a href="#" class="forget-psd">忘记密码了?</a>
+                    </p>
+                    <span class="user-remember">下次记住我的信息</span>
+                    <i class="remember"><s class="remember2"></s></i>
+                    <span class="user-all-click">点击登录</span>
+                </form>
+            </div>
+            <div class="user-wall2"></div>
+            <div class="login-right">
+                <p class="user-head">新用户</p>
+
+                <p>现在注册，即可成为Banana Umbrella会员，获得VIP尊享服务。</p>
+
+                <p class="">你可以：</p>
+
+                <p>-接收时事通讯</p>
+
+                <p>-获得新品上市、独家限量设计新闻以及促销讯息</p>
+
+                <p>-实现更快捷的结账流程</p>
+
+                <p>-管理您的订单和退货信息</p>
+
+                <p class=""><span class="user-all-click">注册</span></p>
+
+            </div>
+        </div>
+    </div>
+    <!--register start-->
+    <div class="users-register" id="users-register" style="display: none">
+        <form method="post">
+            <div class="users-register-head">
+                <span class="click-close" id="click-close2"></span>
+
+                <p class="users-register-tip">新用户</p>
+
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="mobile" maxlength="11"
+                           onkeyup="this.value=this.value.replace(/\D/g,'')"
+                           onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+                    <span class="input-bor">输入手机号码*</span>
+                </div>
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="sms_verifycode">
+                    <span class="input-bor">输入手机验证码*</span>
+                </div>
+                <div class="users-register-wamp">
+                    <input type="password" name="regpassword" class="input" maxlength="12">
+                    <span class="input-bor">输入6~12字符密码*</span>
+
+                </div>
+                <div class="users-register-wamp">
+                    <input type="password" name="re_regpassword" class="input" maxlength="12">
+                    <span class="input-bor">确认密码*</span>
+
+                </div>
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="name">
+                    <span class="input-bor">昵称*</span>
+                </div>
+                <span class="user-all-click">注册</span>
+            </div>
+        </form>
+    </div>
+    <!--register end-->
+    <!--user end-->
+    <!--centerContent start-->
+    <div class="center">
+        <div class="center-top">
+            <div class="top-contact">
+                法律启示
+            </div>
+
+            <div class="contact-bottom">
+                <h2>1.知识产权</h2>
+
+                <p>
+                    减字科技拥有此网站内所有信息内容的版权，包括但不限于图片、文本、音频、视频、图表、索引、资料、HTML代码以及类似内容。如果您有仅用作个人用途非商业目的需要，可以根据本网站的条款和条件，对已获得访问权限的内容进行访问、下载、复制、存储、运营、打印或其他方式的使用。</p>
+
+                <p>本网站上的内容、材料或与之相关的任何权利、所有权或者利益均归减字科技所有。</p>
+
+                <p>未经减字科技许可，任何人不得擅自以任何可能导致用户误解的方式，或者任何会污蔑或者毁谤减字科技名誉、商标、以及产品的方式，用于并非源自减字科技的任何产品和服务。</p>
+
+                <p>您同意接受并遵守本网站以及其中内容中包含的所有版权或者商标公告以及其他通知。</p>
+
+                <h2>2. 其他网站的链接</h2>
+
+                <p>本网站或应用程序可能包含转到其他网站的链接。</p>
+
+                <p>本网站以外的网站不受我们控制，我们提供这些链接希望方便访问者，但不能也不会承担这些网站的数据收集和管理、隐私处理以及网站内容等所引起的责任。</p>
+
+                <p>如果该等网站上有列出条款和条件或者是其他隐私权声明或者政策，您应当仔细地进行阅读，因为其可能约束您对该等网站的使用。</p>
+
+                <p>减字科技无需对这些网站或者外部资源负责，减字科技拒绝对这些网站和外部资源提供的或者分化出的内容包括但不限于产品、广告、服务和其他任何其他资料承担任何责任。</p>
+                <h2>3.版权声明</h2>
+                <p>Copyright © 2015 Janez Holdings Co., Ltd.</p>
+                <p>浙ICP备14041663号-2 All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <!--centerContent end-->
+</div>
+</body>
+</html>

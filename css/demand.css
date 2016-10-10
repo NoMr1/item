@@ -1,0 +1,27 @@
+.contact-bottom p span {
+    color: red;
+}
+
+.contact-bottom p {
+    padding: 5px 0;
+}
+
+.center-pic {
+    width: 100%;
+}
+
+img.yz-img {
+    margin: 15px;
+}
+
+input.demand-inp {
+    width: 440px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    padding: 0px 12px;
+    border: 1px solid #000000;
+    color: #777777;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}

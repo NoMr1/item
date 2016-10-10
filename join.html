@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>加入我们</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/contact.css"/>
+    <link rel="stylesheet" href="css/join.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div class="all-warp">
+    <!--leftContent start-->
+    <div class="all-left">
+        <div class="all-left-content">
+            <div class="left-logo">
+                <a href="javascript:;">
+                    <img src="images/logo.png" alt=""/>
+                </a>
+            </div>
+            <ul class="all-left-list">
+                <li><a href="black.html">Black系列</a></li>
+                <li><a href="air.html">Air系列</a></li>
+                <li><a href="bon.html">Bon系列</a></li>
+                <li><a href="joli.html">Joli系列</a></li>
+                <li><a href="moma.html">Moma系列</a></li>
+                <li><a href="world.html">我们的世界</a></li>
+            </ul>
+            <div class="all-left-bottom">
+                <ul class="all-left-bottom-content">
+                    <li>
+                        <a href="contact.html">
+                            <i class="left-ico1"></i>
+                            联系我们
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="wenti.html">
+                            <i class="left-ico2"></i>
+                            常见问题
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demand.html">
+                            <i class="left-ico3"></i>
+                            防伪查询
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="join.html">
+                            <i class="left-ico4"></i>
+                            加入我们
+                            <span class="a-hr"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="has-list">
+                            <i class="left-ico5"></i>
+                            法律声明
+                        </a>
+
+                        <div class="left-other" style="display:none">
+                            <a href="teaching.html">
+                                <p>--法律启示</p>
+                            </a>
+                            <a href="hide.html">
+                                <p>--隐私声明</p>
+                            </a>
+                            <a href="apply.html">
+                                <p>--使用条款</p>
+                            </a></div>
+                    </li>
+                </ul>
+                <div class="email-main">
+                    <p class="email-tip">
+                        <span class="email-tip-ico"></span>
+                        订阅邮件：
+                    </p>
+
+                    <p class="email-address">请输入合法的邮箱地址!</p>
+
+                    <div class="email-address-input">
+                        <input type="email" name="email" placeholder="请输入邮箱地址" id="emailAddress">
+                        <span id="emailDeliveryButton">
+                            <i></i>
+                        </span>
+                    </div>
+                </div>
+                <p class="left-bottom-last">浙ICP备14041663号-2<br/><br/>公安机关备案号33010802004721</p>
+            </div>
+        </div>
+    </div>
+    <div class="all-left-mark"></div>
+    <!--leftContent end-->
+    <!--rightContent start-->
+    <div class="all-right">
+        <div class="all-rightTOP">
+            <ul class="right-list">
+                <li>
+                    <span>
+                        <i class="r-ico1"></i>
+                        <a href="javascript:;" id="user-enter"> 登录/注册</a>
+                    </span>
+                </li>
+                .
+                <li>
+                    <span class="right-car">
+                        <i class="r-ico2"></i>
+                        <a href="javascript:;">我的购物袋</a>
+
+                         <div class="show-commodity">
+                             您的购物袋中暂无商品。
+                         </div>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="r-ico3"></i>
+                        <a href="javascript:;">客户服务</a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="r-ico4"></i>
+                        <a href="javascript:;">在线客服</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="all-rightBOTTOM">
+            <ul class="right-bottom">
+                <li class="wx-icon">
+                    <img src="images/code_wx.png" alt="" id="code-wx"/>
+                </li>
+                <li class="wb-icon">
+                    <img src="images/code_wb.png" alt=""/>
+                </li>
+                <li class="to-top" id="totop"></li>
+            </ul>
+        </div>
+    </div>
+    <!--rightContent end-->
+
+    <!--user start-->
+    <div class="click-bg"></div>
+    <div class="click-data">
+        <span class="click-close" id="click-close"></span>
+
+        <div class="login">
+            <div class="login-left">
+                <form action="POST">
+                    <p class="user-head">已注册用户</p>
+
+                    <p class="user-head2">请于下方输入您的手机号码和密码，以登录您的账户</p>
+
+                    <div class="user-input-warp">
+                        <input id="uesr-tel" type="text" class="input" name="username" maxlength="11"
+                               onkeyup="this.value=this.value.replace(/\D/g,'')"
+                               onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+                        <span class="user-tel">手机号码*</span>
+                    </div>
+                    <div class="user-wall"></div>
+                    <div class="user-input-warp">
+                        <input id="uesr-psd" type="password" class="input" name="password"/>
+                        <span class="user-psd">密码*</span>
+                    </div>
+                    <p>
+                        <a href="#" class="forget-psd">忘记密码了?</a>
+                    </p>
+                    <span class="user-remember">下次记住我的信息</span>
+                    <i class="remember"><s class="remember2"></s></i>
+                    <span class="user-all-click">点击登录</span>
+                </form>
+            </div>
+            <div class="user-wall2"></div>
+            <div class="login-right">
+                <p class="user-head">新用户</p>
+
+                <p>现在注册，即可成为Banana Umbrella会员，获得VIP尊享服务。</p>
+
+                <p class="">你可以：</p>
+
+                <p>-接收时事通讯</p>
+
+                <p>-获得新品上市、独家限量设计新闻以及促销讯息</p>
+
+                <p>-实现更快捷的结账流程</p>
+
+                <p>-管理您的订单和退货信息</p>
+
+                <p class=""><span class="user-all-click">注册</span></p>
+
+            </div>
+        </div>
+    </div>
+    <!--register start-->
+    <div class="users-register" id="users-register" style="display: none">
+        <form method="post">
+            <div class="users-register-head">
+                <span class="click-close" id="click-close2"></span>
+
+                <p class="users-register-tip">新用户</p>
+
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="mobile" maxlength="11"
+                           onkeyup="this.value=this.value.replace(/\D/g,'')"
+                           onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+                    <span class="input-bor">输入手机号码*</span>
+                </div>
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="sms_verifycode">
+                    <span class="input-bor">输入手机验证码*</span>
+                </div>
+                <div class="users-register-wamp">
+                    <input type="password" name="regpassword" class="input" maxlength="12">
+                    <span class="input-bor">输入6~12字符密码*</span>
+
+                </div>
+                <div class="users-register-wamp">
+                    <input type="password" name="re_regpassword" class="input" maxlength="12">
+                    <span class="input-bor">确认密码*</span>
+
+                </div>
+                <div class="users-register-wamp">
+                    <input type="text" class="input" name="name">
+                    <span class="input-bor">昵称*</span>
+                </div>
+                <span class="user-all-click">注册</span>
+            </div>
+        </form>
+    </div>
+    <!--register end-->
+    <!--user end-->
+    <!--centerContent start-->
+    <div class="center">
+        <div class="center-top">
+            <div class="top-contact">
+                加入我们
+            </div>
+            <div class="join-us">
+                <h2>减字是一个不断前进的创业型公司</h2>
+
+                <p class="first-child">以科技文本，怀着匠心打造高质产品，传递新理论</p>
+
+                <p>How are you. 如果你在下列岗位里看见未来的自己，提交令你满意的资料，我们来聊聊。</p>
+            </div>
+            <a href="#"><img src="images/join_us_02.jpg" alt=""/></a>
+
+            <div class="join-main">
+                <p class="join-title">公司简介</p>
+
+                <p class="join-text">
+                    减字科技有限公司主要从事专业防晒伞品牌BananaUmbrella在大陆的销售工作。BananaUmbrella是创建于2012年的专业防晒伞品牌，其产品将可高效阻隔UVA的L.R.C™涂层首次在伞布上使用，注重设计感的同时结合高科技材料的运用，并坚持手工缝制，成功定义了专属于Banana
+                    Umbrella的防晒美学。</p>
+
+                <p class="join-title">联系HR</p>
+
+                <p class="join-text">联系电话：0571-81388815</p>
+
+                <p class="join-text">投递邮箱：<a href="#" style="color: #0066CC">hr@janezt.com</a></p>
+
+                <p class="join-title">招聘职位</p>
+
+                <p class="join-job">初级平面设计师（应届生）</p>
+                <span class="join-click">您可以点击了解职位详情</span>
+
+                <div class="join-job2">
+                    <p>工作职责：</p>
+
+                    <p>1、参与产品广告海报，宣传，详情页，包装等设计创作。</p>
+
+                    <p>2、根据公司不同市场活动及需求，完成相关设计工作。</p>
+
+                    <p>3、负责图片后期的处理。</p>
+
+                    <p>4、协助品牌建设。</p>
+
+                    <p>职位要求：</p>
+
+                    <p>1、美术、设计或相关专业本科毕业。</p>
+
+                    <p>2、有相关行业经验或是实习经验者优先。</p>
+
+                    <p>3、富于创新、思维活跃，并对先进的设计理念和技术有较强的理解能力。</p>
+
+                    <p>4、有丰富的设计理论知识和对流行趋势敏锐的洞察力。</p>
+
+                    <p>5、能够熟练使用Photoshop、Flash、Illustrator等软件。</p>
+
+                    <p>6、良好的沟通能力和团队协作精神，能承受高强度的工作压力。</p>
+
+                    <p>7、掌握一定的摄影相关知识。</p>
+
+                    <p>8、211、985类或者知名美院类应届生优先考虑。</p>
+
+                </div>
+
+                <p class="join-job">平面创意设计师（线下品牌店）</p>
+                <span class="join-click1">您可以点击了解职位详情</span>
+
+                <div class="join-job-2">
+                    <p>岗位职责：</p>
+
+                    <p>1、根据营销活动的策划方案作出相关的广告规划；</p>
+
+                    <p>2、根据品牌定位与策略，制定门店、户外、商品广告等统一设计策略；</p>
+
+                    <p>3、根据品类发展策略，进行新品上市包装规划。</p>
+
+                    <p>任职要求：</p>
+
+                    <p>1、美术学院相关专业毕业，有一定功底的手绘能力和较强的图像及多媒体处理能力；</p>
+
+                    <p>2、两年以上平面设计工作经验，能够清晰阐述作品并独立完成设计项目；</p>
+
+                    <p>3、迅速理解文案及策略思想，对画面色彩把握及整体创意传达有良好视觉体现；</p>
+
+                    <p>4、精通 Illustrator、 Coreldraw、Photoshop、Indesign、Freehand 等相关软件；</p>
+
+                    <p>5、设计语言丰富且有创造力，善于图文创意结合，喜欢舞文弄墨；</p>
+
+                    <p>6、有潮流品牌设计经验者优先。</p>
+
+                </div>
+
+                <p class="join-job">初级产品设计师（应届生）</p>
+                <span class="join-click2">您可以点击了解职位详情</span>
+
+                <div class="join-job-3">
+                    <p>岗位职责：</p>
+
+                    <p>1、负责产品线设计布局，负责图案设计，负责布料选取以及颜色选择。</p>
+
+                    <p>2、配合产品给的进度，确保设计按时完成；</p>
+
+                    <p>3、负责与研发部门沟通协调，并随时更新设计；</p>
+
+                    <p>4、负责产品迭代设计，能在一个设计主题下想法无限，不断迭代。</p>
+
+                    <p>任职要求：</p>
+
+                    <p>1、本科以上学历，时尚、设计、服装类相关专业（211或985类学校优先考虑）；</p>
+
+                    <p>2、热爱时尚，从心底热爱设计，深入细节及良好的审美观念；</p>
+
+                    <p>3、以用户角度出发，理解用户群，理解市场；</p>
+
+                    <p>4、好奇心强，能独立思考及良好的学习能力 ；</p>
+
+                    <p>5、内心坚强，有激情，良好的逻辑思维；</p>
+
+                    <p>6、良好的沟通能力及抗压能力，优秀毕业生优先考虑。</p>
+
+                    <p>7、211、985类或者知名美院类应届生优先考虑。</p>
+                </div>
+
+            </div>
+            <div class="join-wall"></div>
+        </div>
+    </div>
+    <!--centerContent end-->
+</div>
+</body>
+</html>

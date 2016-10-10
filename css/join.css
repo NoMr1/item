@@ -1,0 +1,79 @@
+.join-us {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: #FFFFFF;
+}
+
+.join-us h2 {
+    z-index: 10;
+    position: absolute;
+    left: 15px;
+    top: 120px;
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+.join-us p.first-child {
+    z-index: 10;
+    position: absolute;
+    left: 15px;
+    top: 160px;
+}
+
+.join-us p:last-child {
+    z-index: 10;
+    position: absolute;
+    left: 15px;
+    top: 180px;
+}
+
+.join-main {
+    padding: 18px 18px 38px 28px;
+}
+
+.join-main .join-title {
+    width: 1060px;
+    border-bottom: 1px solid #1D1C1B;
+    font-size: 20px;
+    color: #1D1C1B;
+    padding-bottom: 16px;
+    padding-left: 6px;
+    padding-top: 26px;
+}
+
+.join-main .join-text {
+    padding: 12px;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.join-job {
+    margin: 18px 0;
+}
+
+.join-click, .join-click1, .join-click2 {
+    margin: 10px;
+    font-size: 16px;
+    color: #727272;
+    cursor: pointer;
+}
+
+.join-job2, .join-job-2, .join-job-3 {
+    padding: 28px 36px 46px 16px;
+    background-color: #DCDCDC;
+    display: none;
+}
+
+.join-job2 p, .join-job-2 p, .join-job-3 p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.join-wall {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin-left: 2.5%;
+    margin-bottom: 20px;
+}
